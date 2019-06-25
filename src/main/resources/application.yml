@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+     name: demo
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  redis:
+    host: localhost
+    database: 1
+    timeout: 30000
+    port: 6379
